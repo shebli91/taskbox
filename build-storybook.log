@@ -1,0 +1,113 @@
+$ storybook build --output-dir C:\Users\USER-Q\AppData\Local\Temp\chromatic--17084-Elo7NtpMBjv5
+@storybook/cli v7.0.6
+
+info => Cleaning outputDir: C:\Users\USER-Q\AppData\Local\Temp\chromatic--17084-Elo7NtpMBjv5
+info => Loading presets
+info => Building manager..
+info => Manager built (127 ms)
+info => Copying static files: C:\Users\USER-Q\Desktop\Coding\ReactJs\Storybook\taskbox\node_modules\@storybook\manager\static at C:\Users\USER-Q\AppData\Local\Temp\chromatic--17084-Elo7NtpMBjv5\sb-common-assets
+[36mvite v4.2.2 [32mbuilding for production...[36m[39m
+info => Copying static files: C:\Users\USER-Q\Desktop\Coding\ReactJs\Storybook\taskbox\public at C:\Users\USER-Q\AppData\Local\Temp\chromatic--17084-Elo7NtpMBjv5\
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+[32m✓[39m 17 modules transformed.
+[32m✓[39m built in 357ms
+[31m[storybook:inject-export-order-plugin] Parse error @:10:71[39m
+file: [36mC:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/src/components/InboxScreen.stories.js[39m
+ERR! Error: Parse error @:10:71
+ERR!     at parse (C:\Users\USER-Q\Desktop\Coding\ReactJs\Storybook\taskbox\node_modules\es-module-lexer\dist\lexer.cjs:1:402)
+ERR!     at Object.transform (C:\Users\USER-Q\Desktop\Coding\ReactJs\Storybook\taskbox\node_modules\@storybook\builder-vite\dist\index.js:54:61)
+ERR!     at file:///C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/rollup/dist/es/shared/node-entry.js:24407:40
+ERR!  Error: Parse error @:10:71
+ERR!     at parse (C:\Users\USER-Q\Desktop\Coding\ReactJs\Storybook\taskbox\node_modules\es-module-lexer\dist\lexer.cjs:1:402)
+ERR!     at Object.transform (C:\Users\USER-Q\Desktop\Coding\ReactJs\Storybook\taskbox\node_modules\@storybook\builder-vite\dist\index.js:54:61)
+ERR!     at file:///C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/rollup/dist/es/shared/node-entry.js:24407:40 {
+ERR!   idx: 430,
+ERR!   code: 'PLUGIN_ERROR',
+ERR!   plugin: 'storybook:inject-export-order-plugin',
+ERR!   hook: 'transform',
+ERR!   id: 'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/src/components/InboxScreen.stories.js',
+ERR!   watchFiles: [
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/iframe.html',
+ERR!     '/virtual:/@storybook/builder-vite/vite-app.js',
+ERR!     '\x00vite/modulepreload-polyfill',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\react\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-links\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-essentials\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-interactions\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-a11y\\package.json',
+ERR!     '/virtual:/@storybook/builder-vite/setup-addons.js',
+ERR!     '/virtual:/@storybook/builder-vite/storybook-stories.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/react/dist/config.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-links/dist/preview.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-essentials/dist/docs/preview.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-essentials/dist/actions/preview.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-essentials/dist/backgrounds/preview.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-essentials/dist/measure/preview.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-essentials/dist/outline/preview.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-essentials/dist/highlight/preview.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-interactions/dist/preview.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-a11y/dist/preview.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/.storybook/preview.js',
+ERR!     '\x00vite/preload-helper',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/src/components/InboxScreen.stories.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/src/components/Task.stories.jsx',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/src/components/TaskList.stories.jsx',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-links/dist/chunk-VJY7NXNQ.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-links/dist/chunk-DXNAW7Q2.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-links/dist/chunk-JT3VIYBO.mjs',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\docs-tools\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\prop-types\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\html-tags\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\escodegen\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\ts-dedent\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\acorn\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\acorn-jsx\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\acorn-walk\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\lodash\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\react-element-to-jsx-string\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\react\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/prop-types/index.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/html-tags/index.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/escodegen/escodegen.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/ts-dedent/esm/index.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/acorn-jsx/index.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/lodash/isPlainObject.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/lodash/isFunction.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/lodash/isString.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/react-element-to-jsx-string/dist/esm/index.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/react/index.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/react/dist/chunk-JWY6Y6NU.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/react/dist/chunk-R4NKYYJA.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/docs-tools/dist/index.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/acorn/dist/acorn.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/acorn-walk/dist/walk.mjs',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\global\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\instrumenter\\package.json',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-interactions\\node_modules\\jest-mock\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-interactions/node_modules/jest-mock/build/index.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-interactions/dist/chunk-NNAAFZ4U.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/global/dist/index.mjs',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/instrumenter/dist/index.mjs',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-docs\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-docs/dist/preview.mjs',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-outline\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-outline/dist/preview.mjs',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-measure\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-measure/dist/preview.mjs',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\msw-storybook-addon\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/msw-storybook-addon/dist/index.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/src/index.css',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-actions\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-actions/dist/preview.mjs',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-backgrounds\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-backgrounds/dist/preview.mjs',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\@storybook\\addon-essentials\\node_modules\\@storybook\\addon-highlight\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-essentials/node_modules/@storybook/addon-highlight/dist/preview.mjs',
+ERR!     'C:\\Users\\USER-Q\\Desktop\\Coding\\ReactJs\\Storybook\\taskbox\\node_modules\\axe-core\\package.json',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/axe-core/axe.js',
+ERR!     'C:/Users/USER-Q/Desktop/Coding/ReactJs/Storybook/taskbox/node_modules/@storybook/addon-a11y/dist/chunk-RCNGGLPU.mjs'
+ERR!   ]
+ERR! }
+[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m»[39m [90m(Y/n)[39m
